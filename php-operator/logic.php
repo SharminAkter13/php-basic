@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>logic operators</h1>
-    <?
+    <?php
     $a = false && true;
     $b = false || true;
     $c = true and true;
