@@ -17,9 +17,86 @@
     echo $_SERVER['SERVER_ADDR'];
     echo"<br>";
     echo $_SERVER['SCRIPT_FILENAME'];
-    
-    
+    echo "<br>";
+    echo "<br>";
+
     ?>
+
+<?php
+    echo $_POST['fname'];
+    echo "<br>";
+    echo $_POST['email'];
+    echo "<br>";
+
+    echo $_POST['address'];
+
+    ?>
+   
+    <form action="" method=POST>
+    Name: <br />
+    <input
+            type="text"
+            name="fname"
+            placeholder="please enter your name"
+          />
+          <br /><br />
+          Email: <br />
+          <input
+            type="text"
+            name="email"
+            placeholder="please enter your email"
+          />
+          <br /><br />
+          Address: <br />
+          <textarea
+            name="address"
+            placeholder="please enter your address"
+          ></textarea>
+          <br /><br />
+
+          <input
+            type="submit"
+            value="Submit"/>
+    </form>
+
+    <?php
+    echo $_GET['fname'];
+    echo "<br>";
+    echo $_GET['email'];
+    echo "<br>";
+
+    echo $_GET['address'];
+
+    ?>
+
+    <form action="" method=GET>
+    Name: <br />
+    <input
+            type="text"
+            name="fname"
+            placeholder="please enter your name"
+          />
+          <br /><br />
+          Email: <br />
+          <input
+            type="text"
+            name="email"
+            placeholder="please enter your email"
+          />
+          <br /><br />
+          Address: <br />
+          <textarea
+            name="address"
+            placeholder="please enter your address"
+          ></textarea>
+          <br /><br />
+
+          <input
+            type="submit"
+            value="Submit"/>
+    </form>
+
+    
     
 </body>
 </html>
