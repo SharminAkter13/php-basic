@@ -21,7 +21,7 @@
     echo "<br>";
 
     ?>
-
+<!-- post superglobal method -->
 <?php
     echo $_POST['fname'];
     echo "<br>";
@@ -58,6 +58,7 @@
             type="submit"
             value="Submit"/>
     </form>
+<!-- get superglobal method -->
 
     <?php
     echo $_GET['fname'];
@@ -96,7 +97,46 @@
             value="Submit"/>
     </form>
 
+
+<!-- request superglobal method -->
+
     
+<?php
+    echo $_REQUEST['fname1'];
+    echo "<br>";
+    echo $_REQUEST['email1'];
+    echo "<br>";
+
+    echo $_REQUEST['address1'];
+
+    ?>
+
+    <form action="" method=GET>
+    Name: <br />
+    <input
+            type="text"
+            name="fname1"
+            placeholder="please enter your name"
+          />
+          <br /><br />
+          Email: <br />
+          <input
+            type="text"
+            name="email1"
+            placeholder="please enter your email"
+          />
+          <br /><br />
+          Address: <br />
+          <textarea
+            name="address1"
+            placeholder="please enter your address"
+          ></textarea>
+          <br /><br />
+
+          <input
+            type="submit"
+            value="Submit"/>
+    </form>
     
 </body>
 </html>
