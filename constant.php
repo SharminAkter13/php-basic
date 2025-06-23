@@ -24,6 +24,7 @@
     const CONSTANT ="HELLO WORLD!!!";
     echo CONSTANT;
     ?>
+    
 
     <h4>Constant arrays</h4>
 
@@ -33,7 +34,7 @@
         "cat",
         "bird"
     ));
-    echo ANIMALS[2];
+    echo ANIMALS[1];
     
     ?>
 
