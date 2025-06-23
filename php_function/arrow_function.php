@@ -24,6 +24,15 @@
     <?php
     $sums = fn() => "Hello";  //in arrow function in php we need to call fn otherwise it won't work.
     echo $sums();
+    echo "<br>";
+    ?>
+
+
+<?php
+    $add = fn($s,$t)=>$s + $t;
+    echo $add(3,9);
+
+    echo "<br>";
     
     ?>
 </body>
