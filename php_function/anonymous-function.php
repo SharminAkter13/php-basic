@@ -6,6 +6,16 @@
     <title>Anonymous Function</title>
 </head>
 <body>
-    
+
+<?php
+    $add =function(){
+        echo "Hi, ";
+    };
+    $add();
+    $v=function(){
+        echo "Hello Bangladehs";
+    };
+    $v();
+    ?>
 </body>
 </html>
