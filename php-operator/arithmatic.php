@@ -54,7 +54,7 @@
      <h4>modulo (Remainder)</h4>
      <!-- Remainder of $a divided by $b. -->
     <?php
-    $a = 35;
+    $a = 32;
     $b = 4;
     echo $a%$b;
     echo "<br>";
