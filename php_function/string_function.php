@@ -23,7 +23,7 @@ function food(){
 echo food();
 echo "<br>";
 
-function foods_example(){ // Renamed to avoid confusion with original 'foods'
+function foods_example(){ 
     // Example of correct substr usage: getting "urg" from "Burger"
     return substr("Burger", 1, 3);
 }
@@ -37,8 +37,8 @@ echo f();
 echo "<br>";
 
 function g(){
-    // This function will always return "Mochi" because "Burger" is not found in "Mochi"
-    return str_replace("Burger","Pizza","Mochi");
+    $v = "I love Burger";
+    return str_replace("Burger","Pizza",$v);
 }
 echo g();
 echo "<br>";
@@ -49,6 +49,11 @@ function h(){
 echo h();
 echo "<br>";
 
+function h1(){
+    return strlen("Burger is my favourit food");
+}
+echo h1();
+echo "<br>";
 ?>
 </body>
 </html>
