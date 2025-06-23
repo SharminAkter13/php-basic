@@ -13,14 +13,14 @@
 
     // checks if a variable or value is a number or a numeric string. if true than return 1; if false than return empty
     function n(){
-        echo is_numeric(32);
+        echo is_numeric("ghh");
     }
     n();
     echo "<br>";
 
     // rounds a floating-point number to the nearest integer or to a specified number of decimal places.
     function n1(){
-        echo ("Round:".round(456.62));
+        echo ("Round:".round(456.2));
     }
     n1();
     echo "<br>";
@@ -47,7 +47,7 @@
     ?>
 
 <?php
-    $S =range(0,38,3); //step respectively so it returns an array with 
+    $S =range(0,38,4); //step respectively so it returns an array with 
     // elements starting from 0 to 38 incremented by 3
    
     echo "<br>";

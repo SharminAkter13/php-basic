@@ -26,7 +26,7 @@ echo "<br>";
 
 function foods_example(){ 
     // Example of correct substr usage: getting "urg" from "Burger"
-    return substr("Burger", 1, 3);
+    return substr("Burger", 1, 4);
 }
 echo foods_example();
 echo "<br>";

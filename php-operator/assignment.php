@@ -15,15 +15,16 @@
     <h4>Combined Assignments</h4>
      <?php
     $a=9;
-    $a+=4;
+    $a.=4;
     $b = "What's";
-    $b .= "up";
+    $b .= " up";
     var_dump($a, $b);
     ?>
 
     <h4>Assigning by reference</h4>
     <?php
     $a =5;
+    $c =6;
     $b =&$a;
     print"$a\n";
     print"$b\n";

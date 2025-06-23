@@ -16,6 +16,9 @@
     // Negation
     echo -$b;
     echo "<br>";
+
+    var_dump(-$b);
+    echo "<br>";
     ?>
 
     <h4>addition</h4>
