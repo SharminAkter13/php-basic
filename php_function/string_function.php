@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>String Functions</title>
 </head>
 <body>
+    <h4>String Functions</h4>
 <?php
 // PHP String Functions:
 // strlen(string): Returns the length of a string.
