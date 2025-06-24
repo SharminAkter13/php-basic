@@ -7,10 +7,11 @@
 </head>
 <body>
     <!-- A recursive function is a function that calls itself within its own definition -->
+     <h4>Recursive Function</h4>
     <?php
     function fact($n){
         if($n<=8){
-            echo"$n<br>";
+            echo"$n <br>";
             fact($n+1);
         }
     }
