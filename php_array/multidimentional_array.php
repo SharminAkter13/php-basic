@@ -62,8 +62,8 @@
    ];
    echo "\n"; //prints a newline character
    foreach($tbls as $row){
-    foreach($row as $clm){
-        $v = sprintf("%9d",$clm);
+    foreach($row as $elm){
+        $v = sprintf("%9d",$elm); // sprintf returns the string instead of printing it directly. "%9d" it formats it to be 9 characters wide (right-aligned).
         echo $v;
     
     }
