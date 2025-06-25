@@ -7,6 +7,7 @@
 </head>
 <body>
     <h3>array sort</h3>
+    <!-- Sorts an associative array in ascending order -->
     <?php
     $numbers = [3, 1, 2, 5, 4];
     sort($numbers);
