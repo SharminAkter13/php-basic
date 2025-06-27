@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark transparent fixed-top shadow-5-strong ">
     <div class="container-fluid ">
       <a class="navbar-brand " href="#">
-        <img src="dist/images/w-logo.png" alt="Ferrari" width="36" height="50" style="margin-left: 24px" />
+        <img src="images/w-logo.png" alt="Ferrari" width="36" height="50" style="margin-left: 24px" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
             <a class="nav-link text-white fw-semibold" href="sports-car.html"> SPORTS CARS </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white fw-semibold" href="style-page.html"> COLLECTIONS </a>
+            <a class="nav-link text-white fw-semibold" href="style-page.php"> COLLECTIONS </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white fw-semibold" href="experience.html"> EXPERIENCES </a>

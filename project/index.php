@@ -11,30 +11,6 @@
 
   <!-- NAVBAR end -->
 
-  <!-- HERO start -->
-  <section id="hero" class="min-vh-100  d-flex align-items-center text-center">
-
-    <div class="container">
-
-
-      <div class="row">
-        <div class="col12 animate__animated animate__fadeInUp">
-          <h1 class="text-uppercase text-white fw-semibold display-5">PURE DRIVING PLEASURE</h1>
-          <div>
-            <div class="Cover__link__2sunY9Xb text-white btn btn-outline-light bg-transparent me-3 w-25"> 296 SPECIAL
-            </div>
-            <div class="Cover__button-wrap__14haVmlp text-white btn btn-outline-light bg-transparent ms-3 w-25"> 296
-              SPECIAL A </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- HERO end -->
-
   <!-- carousel start -->
 
   <section carousel>
@@ -53,7 +29,7 @@
         <!-- Single item -->
         <div class="carousel-item active " data-bs-interval="1500">
           <video class="img-fluid w-100" autoplay muted>
-            <source src="dist/images/video4.mp4" type="video/mp4" />
+            <source src="images/video4.mp4" type="video/mp4" />
           </video>
           <div class="carousel-caption d-none d-md-block">
             <p>Sports Cars</p>
@@ -69,7 +45,7 @@
         <!-- Single item -->
         <div class="carousel-item" data-bs-interval="1500">
           <video class="img-fluid w-100 " autoplay muted>
-            <source src="dist/images/dcinologo_whitebag (720p).mp4" type="video/mp4" />
+            <source src="images/dcinologo_whitebag (720p).mp4" type="video/mp4" />
           </video>
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
@@ -82,7 +58,7 @@
         <!-- Single item -->
         <div class="carousel-item" data-bs-interval="1500">
           <video class="img-fluid w-100" autoplay muted>
-            <source src="dist/images/video6.mp4" type="video/mp4" />
+            <source src="images/video6.mp4" type="video/mp4" />
           </video>
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
@@ -123,7 +99,7 @@
               </p>
 
             </div>
-            <img src="dist/images/Racing through the 305.jpg" class="d-block w-50 carousel-image" alt="First Image">
+            <img src="images/Racing through the 305.jpg" class="d-block w-50 carousel-image" alt="First Image">
           </div>
         </div>
         <div class="carousel-item second-carousel">
@@ -135,7 +111,7 @@
                 <a href="#" class="nav-link fw-bold"> READ MORE ></a>
               </p>
             </div>
-            <img src="dist/images/Racing through the 305 (1).jpg" class="d-block w-50 carousel-image"
+            <img src="images/Racing through the 305 (1).jpg" class="d-block w-50 carousel-image"
               alt="Second Image">
           </div>
         </div>
@@ -151,7 +127,7 @@
                 <a href="#" class="nav-link fw-bold"> READ MORE ></a>
               </p>
             </div>
-            <img src="dist/images/slide31.jpg" class="d-block w-50 carousel-image" alt="Third Image">
+            <img src="images/slide31.jpg" class="d-block w-50 carousel-image" alt="Third Image">
           </div>
         </div>
         <div class="carousel-item second-carousel">
@@ -164,7 +140,7 @@
                 <a href="#" class="nav-link fw-bold"> READ MORE ></a>
               </p>
             </div>
-            <img src="dist/images/slide4.jpg" class="d-block w-50 carousel-image" alt="Third Image">
+            <img src="images/slide4.jpg" class="d-block w-50 carousel-image" alt="Third Image">
           </div>
         </div>
       </div>
@@ -196,72 +172,72 @@
     <div class="grid-container-fluid w-100 img-content">
       <div class="grid-item ">
           <div class="image-with-text animate__animated animate__fadeInLeft">
-              <img src="dist/images/image1.jpg"  alt="Image 1" >
+              <img src="images/image1.jpg"  alt="Image 1" >
               <div class="text-overlay">
                 <h5>Collection</h5>
                 <p style="font-size: 20pt;">NEW ARRIVALS</p>
                 <h5>Discover  <button class="circular-button btn btn-outline-light ms-lg-5">
-                  <span class="arrow">  <img src="dist/images/icon.png" alt=""></span>
+                  <span class="arrow">  <img src="images/icon.png" alt=""></span>
               </button></h5>
               </div>
           </div>
       </div>
       <div class="grid-item ">
           <div class="image-with-text animate__animated animate__fadeInLeft">
-              <img src="dist/images/img8.avif" alt="Image 2">
+              <img src="images/img8.avif" alt="Image 2">
               <div class="text-overlay">
                 <h5>Magazine</h5>
                 <p style="font-size: 20pt;">FERRARI COLLECTIBLES</p>
                 <h5>Discover  <button class="circular-button btn btn-outline-light">
-                      <span class="arrow">  <img src="dist/images/icon.png"  alt=""></span>
+                      <span class="arrow">  <img src="images/icon.png"  alt=""></span>
                   </button></h5>
               </div>
           </div>
       </div>
       <div class="grid-item ">
           <div class="image-with-text animate__animated animate__fadeInLeft">
-              <img src="dist/images/img6.avif" alt="Image 3">
+              <img src="images/img6.avif" alt="Image 3">
               <div class="text-overlay">
                 <h5>Magazine</h5>
                 <p style="font-size: 20pt;">FERRARI F80</p>
                     <h5>Discover <button class="circular-button btn btn-outline-light">
-                      <span class="arrow">  <img src="dist/images/icon.png"  alt=""></span>
+                      <span class="arrow">  <img src="images/icon.png"  alt=""></span>
                   </button></h5>
               </div>
           </div>
       </div>
       <div class="grid-item ">
           <div class="image-with-text animate__animated animate__fadeInLeft ">
-              <img src="dist/images/img2.avif" alt="Image 4">
+              <img src="images/img2.avif" alt="Image 4">
               <div class="text-overlay">
                 <h5>Ferrari Museums</h5>
                 <p style="font-size: 20pt;">FERRARI SUPERCARS</p>
                     <h5>Discover  <button class="circular-button btn btn-outline-light">
-                      <span class="arrow align-middle">  <img src="dist/images/icon.png"  alt=""></span>
+                      <span class="arrow align-middle">  <img src="images/icon.png"  alt=""></span>
                   </button></h5>
               </div>
           </div>
       </div>
       <div class="grid-item ">
           <div class="image-with-text animate__animated animate__fadeInLeft">
-              <img src="dist/images/img1.avif" alt="Image 5">
+              <img src="images/img1.avif" alt="Image 5">
               <div class="text-overlay">
                 <h5>Ferrari Approved</h5>
                 <p style="font-size: 20pt;">PRE-OWNED</p>
                     <h5>Discover  <button class="circular-button btn btn-outline-light">
-                      <span class="arrow">  <img src="dist/images/icon.png"  alt=""></span>
+                      <span class="arrow">  <img src="images/icon.png"  alt=""></span>
                   </button></h5>
               </div>
           </div>
       </div>
       <div class="grid-item ">
           <div class="image-with-text animate__animated animate__fadeInLeft">
-              <img src="dist/images/img3.avif" alt="Image 6">
+              <img src="images/img3.avif" alt="Image 6">
               <div class="text-overlay">
                 <h3>Sports Cars</h3>
                 <p style="font-size: 20pt;">PAST-MODEL</p>
                     <h5>Discover  <button class="circular-button btn btn-outline-light">
-                      <span class="arrow">  <img src="dist/images/icon.png"  alt=""></span>
+                      <span class="arrow">  <img src="images/icon.png"  alt=""></span>
                   </button></h5>
               </div>
           </div>
@@ -291,11 +267,4 @@
   ?>
 
   <!-- FOOTER end -->
-  <script src="dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-
   
-</body>
-
-</html>

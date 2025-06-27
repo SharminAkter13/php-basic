@@ -144,9 +144,18 @@
   </div>
 <div class="bg-dark text-center footer-logo ">
     <div class="container">
-        <img src="dist/images/shell-logo-png-transparent.png" alt="Shell Logo" class="img-fluid" style="max-width: 100px; height: 40px;">
+        <img src="images/shell-logo-png-transparent.png" alt="Shell Logo" class="img-fluid" style="max-width: 100px; height: 40px;">
     </div>
 </div>
   
 
  </footer>
+ <script src="dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+  
+</body>
+
+</html>
