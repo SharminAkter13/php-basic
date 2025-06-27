@@ -7,8 +7,6 @@
   <?php
     include("include/nav.php");
   ?>
-  
-
   <!-- NAVBAR end -->
 
   <!-- carousel start -->

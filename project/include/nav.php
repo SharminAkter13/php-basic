@@ -16,7 +16,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white fw-semibold" href="sports-car.html"> SPORTS CARS </a>
+            <a class="nav-link text-white fw-semibold" href="#"> SPORTS CARS </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white fw-semibold" href="style-page.php"> COLLECTIONS </a>
