@@ -58,9 +58,32 @@
         }
     }
 
-    
-    // $G =new Greetings("Sharmin Akter ","New York ");
-    $G= new Study();
+    class A extends Study{
+        public $emails;
+        function view(){
+            echo " Showing  A information ";
+        }
+        function __construct()
+        {
+            echo " Showing  A creditability   ";
+        }
+    }
+
+
+    class B extends A{
+        public $email;
+        function view(){
+            echo " Showing  B information ";
+        }
+        function __construct($email)
+        {
+            echo " Showing  B creditability   ".$this->email=$email;
+        }
+    }
+    // $G =new Greetings("ShBrmin Akter ","New York ");
+    // $G= new Study();
+    // $G= new A();
+    $G= new B("sh@gmail.com ");
     $G->getInfo();
     $G->display();
     ?>
