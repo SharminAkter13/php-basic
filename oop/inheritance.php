@@ -80,10 +80,11 @@
             echo " Showing  B creditability   ".$this->email=$email;
         }
     }
-    // $G =new Greetings("ShBrmin Akter ","New York ");
-    // $G= new Study();
-    // $G= new A();
+    // $G =new Greetings("Sharmin Akter ","New York ");
+    // // $G= new Study();
+    // // $G= new A();
     $G= new B("sh@gmail.com ");
+
     $G->getInfo();
     $G->display();
     ?>
