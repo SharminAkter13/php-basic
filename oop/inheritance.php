@@ -17,11 +17,11 @@
         }
 
         function display(){
-            echo "This is display method"."<br>";
+            echo "New York is a big city"."<br>";
         }
 
         function details(){
-            echo "This is details method"."<br>";
+            echo "This is details method "."<br>";
         }
 
         function __construct($name)
@@ -30,10 +30,39 @@
         }
     }
 
-    class Greetings extends Greet{
-        
+    class Greetings extends Greet {
+        public $address;
+        public $contact;
+
+        function getInfo(){
+            echo "The city of Youth ";
+        }
+
+        public function __construct($name,$address)
+        {
+            echo $this->name=$name;
+         echo "I lives in ".$this->address = $address;
+        }
     }
 
+
+
+    class Study extends Greetings{
+        public $age;
+        function view(){
+            echo " Showing  user information ";
+        }
+        function __construct()
+        {
+            echo " Showing  user creditability   ";
+        }
+    }
+
+    
+    // $G =new Greetings("Sharmin Akter ","New York ");
+    $G= new Study();
+    $G->getInfo();
+    $G->display();
     ?>
 </body>
 </html>
