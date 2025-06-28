@@ -31,6 +31,7 @@ class Car {
 }
 
 echo "--- Creating Car Objects ---<br>";
+echo "<br>";
 
 $car1 = new Car("Toyota", "Camry", 2023);
 echo $car1->displayCarDetails();
@@ -42,6 +43,7 @@ echo $car2->displayCarDetails();
 echo "<br>";
 
 echo "--- End of Script ---<br>";
+echo "<br>";
 
 ?>
 
