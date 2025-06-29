@@ -18,13 +18,16 @@
         $isPrime = true;
 
         if ($num == 1|| $num ==0) {
-            $isPrime = false;
+          
             echo "<h3> $num is NOT a Prime Number or Composite</h3>";
+            $isPrime = false;
         } else {
             for ($i = 2; $i < ($num); $i++) {
                 if (($num % $i) == 0) {
                     $isPrime = false;
+                    echo "<h3> $num is NOT a Prime Number </h3>";
                     break;
+
                 }
             }
         }
@@ -32,7 +35,7 @@
         if ($isPrime) {
             echo "<h3> $num is a Prime Number</h3>";
         } else {
-            echo "<h3> $num is NOT a Prime Number </h3>";
+            
         }
     }
     
