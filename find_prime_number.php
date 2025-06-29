@@ -34,9 +34,7 @@
 
         if ($isPrime) {
             echo "<h3> $num is a Prime Number</h3>";
-        } else {
-            
-        }
+        } 
     }
     
     ?>
