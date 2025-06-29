@@ -6,7 +6,7 @@ class Drinks{
     public $brand;
 
     public function dlist () { 
-        echo "this  page is for Drinks";
+        echo "This  page is for Drinks";
     }
 }
 

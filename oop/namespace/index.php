@@ -4,17 +4,21 @@ require "drinks.php";
 require "foods.php";
 require "snacks.php";
 
-use ChocolateList\User;
-use DrinkList\Car;
-use FoodList\User2;
-use SnackList\User2;
+use DrinkList\Drinks,FoodList\Foods,SnackList\Snacks,ChocolateList\Foods as Chocolate;
 
+echo "<h3>NameSpace Example</h3>";
 
-$object = new Car();
-$object->info();
+$objf = new Foods();
+$objf->flist();
 echo "<br>";
-$obj = new User();
-$obj->show();
 echo "<br>";
-$ob = new User2();
-$ob->display();
+$objc = new Chocolate();
+$objc->clist();
+echo "<br>";
+echo "<br>";
+$objd = new Drinks();
+$objd->dlist();
+echo "<br>";
+echo "<br>";
+$objs = new Snacks();
+$objs->slist();

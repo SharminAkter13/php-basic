@@ -5,8 +5,8 @@ class Foods{
 public $name;
 public $type;
 
-public clist(){
-    echo "This page is About Chocolate  "
+public function clist(){
+    echo "This page is About Chocolate  ";
 }
 
 }
