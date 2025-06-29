@@ -1,7 +1,7 @@
 <?php 
 
 namespace Ali;
-class Car { 
+class Foods { 
     public function info(){ 
         echo "This is Car.";
     }

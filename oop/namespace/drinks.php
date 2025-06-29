@@ -1,12 +1,12 @@
 <?php 
 
-namespace Rafi;
-class User{ 
+namespace DrinkList;
+class Drinks{ 
     public $name;
-    public $age;
+    public $brand;
 
     public function show () { 
-        echo "this next page";
+        echo "this  page is for Drinks";
     }
 }
 
