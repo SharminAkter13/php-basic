@@ -1,12 +1,12 @@
 <?php 
 
-namespace Razib;
+namespace SnackList;
 
-class User2{
-    public $fname;
-    public $lname;
-    public function display () { 
-        echo "This is loging page";
+class Snacks{
+    public $name;
+    public $type;
+    public function slist () { 
+        echo "This page show Snack list";
     }
 }
 ?>

@@ -1,9 +1,9 @@
 <?php 
 
-namespace Ali;
+namespace FoodList;
 class Foods { 
-    public function info(){ 
-        echo "This is Car.";
+    public function flist(){ 
+        echo "This is Food page.";
     }
 }
 

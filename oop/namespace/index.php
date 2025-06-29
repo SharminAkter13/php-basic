@@ -1,11 +1,13 @@
 <?php
-require "user.php";
-require "car.php";
-require "student.php";
+require "chocolate.php";
+require "drinks.php";
+require "foods.php";
+require "snacks.php";
 
-use Rafi\User;
-use Ali\Car;
-use Razib\User2;
+use ChocolateList\User;
+use DrinkList\Car;
+use FoodList\User2;
+use SnackList\User2;
 
 
 $object = new Car();
