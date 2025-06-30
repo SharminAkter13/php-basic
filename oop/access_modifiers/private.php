@@ -1,4 +1,6 @@
 <?php
+echo "<h3>private - the property or method can ONLY be accessed within the class</h3>";
+
 class Check{
     public $cash =0;
     function sum($equal){
