@@ -16,7 +16,7 @@ public function ssValue(){
 }
 $details = new Student();
 echo $details->studentValue();
-echo Student::studentValue();
+// echo Student::studentValue();
 echo $details->view();
 
 ?>
