@@ -4,5 +4,5 @@
 
 echo "<h3>Parse(Syntax) Error</h3>";
 
-echo Hello World  
+// echo Hello World  
 ?>
