@@ -21,5 +21,5 @@ class Check{
 $total = new Check();
 echo $total ->sum(100000);
 echo $total ->sum(100000);
-echo $total->getCash();
+echo $total->show();
 ?>
