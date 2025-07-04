@@ -1,11 +1,11 @@
 <?php
+// The strlen() function returns the length of a string.
 
-$pswd = "secpswd";
-
-if (strlen($pswd)<10)
-	echo "Password is too short";
-else
-	echo "Password is valid!";
-
+$text ="Let's go to London";
+if(strlen($text)<12){
+	echo "Text is short";
+}else{
+	echo "Text is long";
+}
 
 ?>

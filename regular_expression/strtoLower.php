@@ -1,7 +1,9 @@
 <?php
+// The strtolower() function converts a string to lowercase.
 
-$a="TRThis is silent area.";
-$b=strtolower($a);
+
+$textLower="NEW YORK city is a big city";
+$b=strtolower($textLower);
 
 	echo $b;
 
