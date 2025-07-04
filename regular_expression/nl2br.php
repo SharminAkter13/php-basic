@@ -1,10 +1,10 @@
 <?php
+// Insert line breaks where newlines (\n) occur in the string
+	// nl2br(string $string, bool $use_xhtml = true): string
 
-$a="these dolls,
-that toys,
-this car,
-those gems.";
+$text = "Hello World!,
+This is a new line,
+Another one.";
 
-	echo nl2br($a);
-
+echo nl2br($text);
 ?>
