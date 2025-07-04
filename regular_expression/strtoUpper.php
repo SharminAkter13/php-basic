@@ -1,7 +1,10 @@
 <?php
+// The strtoupper() function converts a string to uppercase.
 
-$a="rainbow";
-$b=strtoupper($a);
+
+
+$textUpper="new york city";
+$b=strtoupper($textUpper);
 
 	echo $b;
 
