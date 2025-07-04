@@ -1,6 +1,6 @@
 <?php
 
-$a="there is a new river padma";
+$a="new york city is a big city";
 
 	echo ucfirst($a);
 
