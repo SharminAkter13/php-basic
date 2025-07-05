@@ -3,9 +3,9 @@
 // preg_grep(string $pattern, array $array, int $flags = 0): array
 
 
-$items = ["apple", "banana", "grape", "orange", "pineapple"];
+$items = ["apple", "banana", "grape", "orange", "Guava"];
 
-$result = preg_grep("/apple/", $items);
+$result = preg_grep("/^g/i", $items);
 
 print_r($result);
 
