@@ -4,6 +4,6 @@
 // preg_split(pattern, string, limit, flags)
 
 
-print_r(preg_split("/[ ]/","This is preg_split "));
+print_r(preg_split("/[ ]/","This is preg split "));
 
 ?>
