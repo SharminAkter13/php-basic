@@ -7,4 +7,16 @@ $s ="The Rain in SPAIN Fall Minly on the Plains";
 $p ="/in/i";
 
 echo preg_match_all($p,$s);
+echo "<br>";
+echo "<br>";
+
+// abc
+
+preg_match_all("/[^el]/","preg match all element testing",$text);
+preg_match_all("/[el]/","preg match all element testing",$text1);
+
+print_r($text);
+echo "<br>";
+echo "<br>";
+print_r($text1);
 ?>
