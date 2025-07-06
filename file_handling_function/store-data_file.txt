@@ -1,4 +1,0 @@
-Hello Student,
-Today we are learning FILE HANDLING.
-For this we have to know what it is.
-In PHP, File handling is the process of interacting with files on the server, such as reading files, writing to a file, creating new files, or deleting existing ones.
