@@ -39,7 +39,7 @@ require_once("form_details.php");
 
         input[type='text'],input[type='submit']{
             width: 99%;
-            border-radius: 2px;
+            border-radius: 3px;
         }
     </style>
 </head>
