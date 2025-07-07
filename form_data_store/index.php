@@ -1,3 +1,16 @@
+<?php
+require_once("form_details.php");
+    if(isset($_POST['submit'])){
+        $fname= $_POST['name'];
+        $fid= $_POST['id'];
+       
+        $details = new FormDetails($fname,$fid);
+        $details->dstore();
+        echo "Form Submit Successful";
+       
+    }
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,23 +19,17 @@
     <title>Email Vlidation</title>
 </head>
 <body>
-    <form method="post" style="margin: auto;">
-        Name:
-        <input type="text" name="name" placeholder="Please Enter Name"><br><br>
-        ID:
-        <input type="text" name="id" placeholder="Please Enter id"><br><br>
-        <input type="submit" name="submit" value="Submit" style="background-color: powderblue;font-weight:bold;">
-    </form>
+    <div>
+        <form method="post" style="margin: auto;">
+            Name:
+            <input type="text" name="name" placeholder="Please Enter Name"><br><br>
+            ID:
+            <input type="text" name="id" placeholder="Please Enter id"><br><br>
+            <input type="submit" name="submit" value="Submit" style="background-color: powderblue;font-weight:bold;">
+        </form>
+        
+    </div>
     <?php
-    if(isset($_POST['submit'])){
-        $fname= $_POST['name'];
-        $fid= $_POST['id'];
-       
-        $details = new FormDetails($_name,$_id);
-        $details->data_store();
-
-       
-    }
     ?>
 </body>
 </html>
