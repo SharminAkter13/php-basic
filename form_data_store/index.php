@@ -8,9 +8,9 @@ require_once("form_details.php");
 
         
         if (preg_match($pattern,$email)) {
-            echo "<h3> The Email is Valid</h3>";
+            echo "<p> The Email is Valid</p>";
         } else{
-            echo "<h3>  The Email is Invalid</h3>";
+            echo "<p>  The Email is Invalid</p>";
         }
         $details = new FormDetails($fname,$fid,$email);
         $details->dstore();
@@ -25,17 +25,34 @@ require_once("form_details.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic Form </title>
+    <style>
+        div{
+            background-color:rgb(186, 171, 243);
+            color: black;
+            margin: 30px auto;
+            padding: 10px;
+            width: 300px;
+            height: 200px;
+            border: 2px solid rgb(159, 137, 247);
+            border-radius: 5px;
+        }
+
+        input[type='text'],input[type='submit']{
+            width: 99%;
+            border-radius: 2px;
+        }
+    </style>
 </head>
 <body>
     <div>
-        <form method="post" style="margin: auto;">
+        <form method="post" >
             Name:
             <input type="text" name="name" placeholder="Please Enter Name"><br><br>
             ID:
             <input type="text" name="id" placeholder="Please Enter id"><br><br>
             Email:
-            <input type="text" name="email" id="email"><br><br>
-            <input type="submit" name="submit" value="Submit" style="background-color: powderblue;font-weight:bold;">
+            <input type="text" name="email" id="email" placeholder="Please Enter email"><br><br>
+            <input type="submit" name="submit" value="Submit" style="background-color: rgb(154, 130, 241);font-weight:bold;color:aliceblue;">
         </form>
         
     </div>
