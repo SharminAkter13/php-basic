@@ -2,16 +2,18 @@
 class FormDetails{
     private $fid;
     private $fname;
+    private $email;
 
     public static $file_path ="data_store.txt";
 
-  function __construct($_name,$_id){
+  function __construct($_name,$_id,$_email){
       $this->fname=$_name;
       $this->fid=$_id;
+      $this->email=$_email;
   }
 
   public function data_store(){ //child function
-    return $this->fname.",".$this->fid.PHP_EOL; //End of Line or create new line
+    return $this->fname.",".$this->fid.",".$this->email.PHP_EOL; //End of Line or create new line
   }
 
   public function dstore(){
