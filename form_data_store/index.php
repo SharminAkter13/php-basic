@@ -45,7 +45,7 @@ require_once("form_details.php");
 </head>
 <body>
     <div>
-        <form method="post" >
+        <form method="post" ">
             Name:
             <input type="text" name="name" placeholder="Please Enter Name"><br><br>
             ID:

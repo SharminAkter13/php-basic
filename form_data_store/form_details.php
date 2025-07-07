@@ -4,7 +4,7 @@ class FormDetails{
     private $fname;
     private $email;
 
-    public static $file_path ="data_store.txt";
+    public static $file_location ="data_store.txt";
 
   function __construct($_name,$_id,$_email){
       $this->fname=$_name;
@@ -17,7 +17,7 @@ class FormDetails{
   }
 
   public function dstore(){
-    file_put_contents(self::$file_path,$this->data_store(),FILE_APPEND);
+    file_put_contents(self::$file_location,$this->data_store(),FILE_APPEND);
   }  
   
   
