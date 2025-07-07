@@ -1,7 +1,7 @@
 <?php
 
 // Open the file in read mode
-$file = fopen("store-data_file.txt", "w"); 
+$file = fopen("data_file.txt", "w"); 
 
 if ($file) {
     echo "File opened successfully!";
@@ -15,6 +15,11 @@ if ($file) {
     fwrite($file, $text3);
     $text3 = "Before you can read or write to a file, you need to open it using the fopen() function, which returns a file pointer resource. Once you're done working with the file, you should close it using fclose() to free up resources..\n";
     fwrite($file, $text3);
+     $text4 = "hello world.\n";
+    fwrite($file, $text4);
+    $text5 = "Good Morning.\n";
+    fwrite($file, $text5);
+
     fclose($file); // Close the file
 } else {
     echo "Failed to open the file.";

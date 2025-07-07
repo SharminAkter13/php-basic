@@ -1,7 +1,7 @@
 <?php
 
-$file = fopen("store-data_file.txt", "r");
-$store = fread($file, filesize("store-data_file.txt"));
+$file = fopen("data_file.txt", "r");
+$store = fread($file, filesize("data_file.txt"));
 
 echo $store;
 fclose($file);
