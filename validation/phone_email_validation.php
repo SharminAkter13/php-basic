@@ -23,21 +23,33 @@
         $email_pattern ="/^[a-zA-Z0-9#%_\-\.]+[@][a-z]+[\.][a-z]{2,3}$/";
         echo "<br>";
 
-        if(preg_match($phone_pattern,$con)){
-            echo "Phone Number is Valid";
+        // if(preg_match($phone_pattern,$con)){
+        //     echo "Phone Number is Valid";
+        // }else{
+        //     echo "Phone Number is Invalid";
+
+        // }
+
+        // echo "<br>";
+        // echo "<br>";
+
+        // if(preg_match($email_pattern,$email)){
+        //     echo "Email is Valid";
+        // }else{
+        //     echo "Email is Invalid";
+
+        // }
+
+
+        if(preg_match($phone_pattern,$con) && preg_match($email_pattern,$email)){
+            echo " Both Phone Number and Email is Valid";
+        }elseif(preg_match($phone_pattern,$con) ){
+            echo " Phone Number is Valid";
+        }elseif(preg_match($email_pattern,$email) ){
+            echo " Email is Valid";
         }else{
-            echo "Phone Number is Invalid";
-
-        }
-
-        echo "<br>";
-        echo "<br>";
-
-        if(preg_match($email_pattern,$email)){
-            echo "Email is Valid";
-        }else{
-            echo "Email is Invalid";
-
+            echo " Both Phone Number and Email is Invalid";
+            
         }
     }
     ?>
