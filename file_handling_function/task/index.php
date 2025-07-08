@@ -19,6 +19,17 @@ require_once('trainee_details.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
+    <style>
+        div{
+            width: 300px;
+            height: 200px;
+            margin: 30px auto;
+            padding: 5px;
+        }
+        legend{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -34,5 +45,8 @@ require_once('trainee_details.php');
     
         </form>
     </div>
+    <?php
+    TraineeDetails::show_traineeList();
+    ?>
 </body>
 </html>
