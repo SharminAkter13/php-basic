@@ -8,9 +8,9 @@ if(isset($_POST['login_button'])){
     foreach($fileLocation as $data){
         list($_userId,$_userpass)= explode(",", trim($data));
         if(($_userId == $userId) && ($_userpass == $userpass)){
-            header("location:data_store.txt");
+            header("location:main_page.php");
         }else{
-            $alrt_text ="<h3>Error Occur</h3>";
+            $alrt_text ="<h3>Username or Password is incorrect!</h3>";
         }
     }
 }
