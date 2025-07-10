@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION['rename'])){
+    header("location:login_form.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,11 +45,12 @@
     </style>
 </head>
 <body>
+<a href="close.php">Close Page</a>
 
     <div class="image-container">
         <img src="https://icon-library.com/images/desktop-computer-icon-png/desktop-computer-icon-png-1.jpg" alt="Computer Icon">
         <h4>Welcome To Our <br>Main Page</h4>
     </div>
-
+    <a href="logout.php">Logout</a>
 </body>
 </html>

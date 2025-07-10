@@ -25,7 +25,7 @@ if(isset($_POST['login_button'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authentication</title>
+    <title>Session</title>
     <style>
         div{
             width: 200px;

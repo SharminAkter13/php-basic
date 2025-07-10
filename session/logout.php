@@ -1,4 +1,6 @@
-programmer,prgm123
-admin,adm123
-user,user123
-executive,executive098
+<?php
+session_start();
+unset($_SESSION['rename']);
+session_destroy();
+header("location:login_form.php");
+?>
