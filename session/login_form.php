@@ -1,4 +1,5 @@
 <?php
+session_start();
 if(isset($_POST['login_button'])){
     $userId = $_POST['userId'];
     $userpass = $_POST['user_password'];
@@ -8,6 +9,7 @@ if(isset($_POST['login_button'])){
     foreach($fileLocation as $data){
         list($_userId,$_userpass)= explode(",", trim($data));
         if(($_userId == $userId) && ($_userpass == $userpass)){
+            $_SESSION['rename']= $userpass;
             header("location:main_page.php");
         }else{
             $alrt_text ="<h3>Username or Password is incorrect!</h3>";
