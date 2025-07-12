@@ -45,12 +45,12 @@ if(!isset($_SESSION['rename'])){
     </style>
 </head>
 <body>
-<a href="close.php">Close Page</a>
+<a href="close.php"><button>Close Page</button></a>
 
     <div class="image-container">
         <img src="https://icon-library.com/images/desktop-computer-icon-png/desktop-computer-icon-png-1.jpg" alt="Computer Icon">
         <h4>Welcome To Our <br>Main Page</h4>
     </div>
-    <a href="logout.php">Logout</a>
+    <a href="logout.php"><button>Logout</button></a>
 </body>
 </html>
