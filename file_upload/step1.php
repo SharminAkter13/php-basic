@@ -27,7 +27,7 @@ if(isset($_POST['submit'])){
     if(isset($_POST['submit'])){
 
         echo "<div style='text-align:center;margin: auto'>
-        <img src='images/$file_name' width='300px'>
+        <img src='images/$file_name' width='300px' style='margin-top: 30px'>
       </div>";
 
     }
