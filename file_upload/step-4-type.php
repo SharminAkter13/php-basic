@@ -4,7 +4,7 @@ print_r($_FILES);
 echo "</pre>";
     // line (2-5) not mendatory;
 
-if(isset($_POST['submit'])){
+if(isset($_POST['submit'])) {
     $file_add = $_FILES['file']['tmp_name'];
     $file_name = $_FILES['file']['name'];
     $file_size = $_FILES['file']['size'];
@@ -15,19 +15,18 @@ if(isset($_POST['submit'])){
     $kb =$file_size/1024;
 
     // copy($tem_add, "images/".$file_name);
-    if($kb>400){
-        echo "File is Large";
-    }else{
-        move_uploaded_file($file_add,$img.$file_name);
-        echo "<b style='color: green;font-size: 16pt;'>Upload Success!!</b>";
-    }
-    if($file_type!="jpg" && $file_type!="Jpeg" && $file_type!="gif"){
-        echo " file not supported";
-        $ok = 0;
-    }
-
-   
+    if ($kb > 400) {
+    echo "File is too large";
+} elseif ($file_type != "image/jpeg" && $file_type != "image/jpg" && $file_type != "image/gif") {
+    echo "File type not supported";
+} else {
+    move_uploaded_file($file_add, $img . $file_name);
+    echo "<b style='color: green;font-size: 16pt;'>Upload Success!!</b>";
 }
+
+
+}   
+
 ?>
 
 <!DOCTYPE html>
