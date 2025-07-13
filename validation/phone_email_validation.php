@@ -41,16 +41,16 @@
         // }
 
 
-        if(preg_match($phone_pattern,$con) && preg_match($email_pattern,$email)){
-            echo " Both Phone Number and Email is Valid";
-        }elseif(preg_match($phone_pattern,$con) ){
-            echo " Phone Number is Valid";
-        }elseif(preg_match($email_pattern,$email) ){
-            echo " Email is Valid";
-        }else{
-            echo " Both Phone Number and Email is Invalid";
-            
+        if (preg_match($phone_pattern, $con) && preg_match($email_pattern, $email)) {
+            echo "<b style='color: green;font-size: 16pt;'>Both Phone Number and Email are Valid</b>";
+        } elseif (!preg_match($phone_pattern, $con) && !preg_match($email_pattern, $email)) {
+            echo "<b style='color: red;font-size: 16pt;'>Both Phone Number and Email are Invalid</b>";
+        } elseif (!preg_match($phone_pattern, $con)) {
+            echo "<b style='color: red;font-size: 16pt;'>Phone Number is Invalid</b>";
+        } elseif (!preg_match($email_pattern, $email)) {
+            echo "<b style='color: red;font-size: 16pt;'>Email is Invalid</b>";
         }
+
     }
     ?>
 </body>
