@@ -19,7 +19,6 @@ if(isset($_POST['submit'])){
             $uploadSuccess = true;
         } else {
             echo "<b style='color: red;font-size: 16pt;'>Failed to upload file.</b>";
-            $uploadSuccess = false;
 
         }
     }
