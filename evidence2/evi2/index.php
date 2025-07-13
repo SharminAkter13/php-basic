@@ -9,20 +9,20 @@ if(isset($_POST['submit'])){
     $email_pattern ="/^[a-zA-Z0-9#_\-\.]+[@][a-z]+[\.][a-z]{2,3}$/";
     
     if((preg_match($id_pattern,$id)) && (preg_match($email_pattern,$email))){
-        echo "<p style='text-align:center;font-weight: bold;color:green;'>Both Id & Email is Valid</p>";
+        echo "<h4 style='text-align:center;font-weight: bold;color:green;'>Both Id & Email is Valid</h4>";
     } elseif((!preg_match($id_pattern,$id)) && (!preg_match($email_pattern,$email))){
-        echo "<p style='text-align:center;font-weight: bold;color:red;'>Both Id & Email is Invalid</p>";
+        echo "<h4 style='text-align:center;font-weight: bold;color:red;'>Both Id & Email is Invalid</h4>";
     }elseif(!preg_match($id_pattern,$id)) {
-        echo "<p style='text-align:center;font-weight: bold;color:red;'> Id is Invalid</p>";
+        echo "<h4 style='text-align:center;font-weight: bold;color:red;'> Id is Invalid</h4>";
     }elseif(!preg_match($email_pattern,$email)) {
-        echo " <p style='text-align:center;font-weight: bold;color:red;'>Email is Invalid</p>";
+        echo " <h4 style='text-align:center;font-weight: bold;color:red;'>Email is Invalid</h4>";
     }
 
     echo "<br>";
 
     $details = new Student($name,$id,$email);
         $details->dstore();
-        echo "<p style='text-align:center;font-weight: bold;color:green;'>Form Submit Successful</p>";
+        echo "<h4 style='text-align:center;font-weight: bold;color:green;'>Form Submit Successful</h4>";
 }
 
 ?>
@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
     <style>
         body{
             font-family: serif;
-            font-size: 14pt;
+          
         }
         fieldset{
             border-radius: 5px;
