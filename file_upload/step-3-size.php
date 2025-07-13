@@ -1,7 +1,7 @@
 <?php
-// echo "<pre>";
-// print_r($_FILES);
-// echo "</pre>";
+echo "<pre>";
+print_r($_FILES);
+echo "</pre>";
     // line (2-5) not mendatory;
 
 if(isset($_POST['submit'])){
