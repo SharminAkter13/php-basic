@@ -9,20 +9,20 @@
     <h3>inheritance</h3>
     <?php
     class Greet{
-        public $name;
+        pub;lic $name
 
-        function __destruct()
-        {
-            echo "Bye";
-        }
+        // function __destruct()
+        // {
+        //     echo "Bye";
+        // }
 
-        function display(){
-            echo "New York is a big city"."<br>";
-        }
+        // function display(){
+        //     echo "New York is a big city"."<br>";
+        // }
 
-        function details(){
-            echo "This is details method "."<br>";
-        }
+        // function details(){
+        //     echo "This is details method "."<br>";
+        // }
 
         function __construct($name)
         {
