@@ -9,7 +9,7 @@
     <h3>inheritance</h3>
     <?php
     class Greet{
-        pub;lic $name
+        public $name
 
         // function __destruct()
         // {
